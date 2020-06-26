@@ -25,7 +25,7 @@ def tie():
     if '-' not in box:
         print("It's a tie.")
         exit()
-def play_game():
+def play():
     global player
     if player == 'x':
         player = 'o'
@@ -40,4 +40,4 @@ def play_game():
     win()
     tie()
 while True:
-    play_game()
+    play()
